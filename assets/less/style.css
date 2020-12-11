@@ -1019,18 +1019,18 @@ a {
   padding: 3px;
   font-size: 22px;
 }
-@media only all and (max-width: 1377px) {
+@media only all and (max-width: 1378px) {
   .Header__nav-pc .nav-pc__list .nav-pc__link {
     padding: 0;
   }
 }
-@media all and (max-width: 1293px) {
+@media all and (max-width: 1294px) {
   .Header__nav-pc .nav-pc__list .nav-pc__link {
     margin: 0 15px 0 15px;
     padding: 0;
   }
 }
-@media all and (max-width: 1199px) {
+@media all and (max-width: 1200px) {
   .Footer .Footer__top .Footer__top-wrap .Footer__top-3 h6:before {
     width: 210px;
   }
@@ -1057,12 +1057,12 @@ a {
     margin: 0 11px 0 11px;
   }
 }
-@media all and (max-width: 1121px) {
+@media all and (max-width: 1122px) {
   .Header__nav-pc .nav-pc__list .nav-pc__link {
     margin: 0 10px 0 10px;
   }
 }
-@media all and (max-width: 1094px) {
+@media all and (max-width: 1095px) {
   .Header__nav-pc .nav-pc__list .nav-pc__link {
     margin: 0 9px 0 9px;
   }
@@ -1073,7 +1073,7 @@ a {
     padding: 0;
   }
 }
-@media all and (max-width: 1039px) {
+@media all and (max-width: 1040px) {
   .Header__nav-pc .nav-pc__list .nav-pc__link {
     margin: 0 7px 0 7px;
   }
@@ -1144,7 +1144,7 @@ a {
   }
   /*<-----------------------------------1.5 Footer--------------------------------------------->*/
 }
-@media all and (max-width: 991px) {
+@media all and (max-width: 991.5px) {
   /*<-----------------------------------1.1.1.Top menu--------------------------------------------->*/
   .header__logo {
     z-index: 1;
@@ -1207,7 +1207,7 @@ a {
     display: none;
   }
 }
-@media all and (max-width: 767px) {
+@media all and (max-width: 768px) {
   /*<-----------------------------------1.1.1.Top menu--------------------------------------------->*/
   .Header__img-logo {
     left: 18%;
@@ -1258,6 +1258,9 @@ a {
   }
   .owl-theme .owl-nav.disabled + .owl-dots {
     display: none;
+  }
+  .Footer .Footer__top .Footer__top-wrap .Footer__top-1 .Footer__text-justify {
+    height: 35%;
   }
 }
 @media all and (max-width: 575px) {
