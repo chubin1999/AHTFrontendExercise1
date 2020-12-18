@@ -5,28 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Franco frontend</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-    <link rel="stylesheet" href="assets/fontawesome-free-5.15.1/css/all.css">
     <link rel="stylesheet" href="assets/fontawesome-pro-5.13.0-web/css/all.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
-
-<!--     <link rel="stylesheet/less" type="text/less" href="assets/less/style.less"> -->
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">        
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <!-- <link rel="stylesheet/less" type="text/less" href="assets/less/style.less"> -->
     <link rel="stylesheet" type="text/css" href="assets/less/style.css">
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="assets/js/jquery-3.5.1.min.js"></script>
     <script src="assets/owlcarousel/owl.carousel.min.js"></script>
-<!--     <script src="assets/js/less.js"></script> -->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Pacifico&display=swap');
-        /*@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,900;1,700;1,800&family=Open+Sans:wght@400;600&family=Pacifico&display=swap');*/
-    </style>
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&family=Pacifico&display=swap" rel="stylesheet"> -->
+    <!-- <script src="assets/js/less.js"></script> -->
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 </head>
 
@@ -117,7 +108,7 @@
             </div>
             <div class="row row-search">
                 <div class="col-md-12 col-sm-12 col-12">
-                    <form class="row__form-search" action="HTML5">
+                    <form class="row__form-search" action="">
                         <div class="p-1 bg-light rounded rounded-pill shadow-sm mb-4">
                             <div class="input-group">
                                 <input type="search" placeholder="Enter the search word?" aria-describedby="button-addon1" class="form-control border-0 bg-light">
@@ -132,34 +123,33 @@
         </div>
     </div>
     <!-- End Hearder -->
-    <!-- Ads -->
+
+    <!-- Banner -->
     <div class="Banner">
         <div class="container Banner__container">
             <div class="row">
                 <div class="col-lg-8 col-md-8 col-sm-12 col-12 banner-left__top ">
                     <div class="banner-left">
-                        <img class="imgads1" src="assets/images/ads1.jpg" alt="">
+                        <img class="imgbanner1" src="assets/images/banner1.jpg" alt="">
                         <div class="banner-left__content">
                             <div class="slogan">
                                 <h2>Two High-end Materials</h2>
                             </div>
-                            <div class="banner-left__button">
-                                <a href="">Shop Now</a>
-                            </div>
+                            <a class="banner-left__button" href="">Shop Now</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-12 banner-right__top">
                     <div class="banner-right row">
-                        <div class="banner-right__ads2 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
-                            <img class="imgads2" src="assets/images/ads2.jpg" alt="">
-                            <div class="ads2__content">
+                        <div class="banner-right__banner2 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                            <img class="imgbanner2" src="assets/images/banner2.jpg" alt="">
+                            <div class="banner2__content">
                                 <h3>small thing</h3>
                                 <h2>make different</h2>
                             </div>
                         </div>
-                        <div class="banner-right__ads3 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
-                            <img class="imgads3" src="assets/images/ads3.jpg" alt="">
+                        <div class="banner-right__banner3 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                            <img class="imgbanner3" src="assets/images/banner3.jpg" alt="">
                             <div class="banner-right__content">
                                 <div class="banner-right__slogan">
                                     <h3>folio</h3>
@@ -173,7 +163,8 @@
             </div>
         </div>
     </div>
-    <!-- End Ads -->
+    <!-- End banner -->
+
     <!-- Product -->
     <div class="Product">
         <div class="container Product__container">
@@ -384,7 +375,9 @@
                     <div class="Blog__card-1 card">
                         <img class="Blog__card-img-top card-img-top" src="assets/images/img_foot1.jpg" alt="Card image cap">
                         <div class="Blog__card-body card-body">
-                            <h5 class="Blog__card-title card-title">In commodo dolor vitae</h5>
+                            <a href="#">
+                                <h5 class="Blog__card-title card-title">In commodo dolor vitae</h5>
+                            </a>
                             <p class="Blog__card-text card-text">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
                         </div>
                         <div class="Blog__card-footer card-footer">
@@ -401,7 +394,9 @@
                     <div class="Blog__card-2 card">
                         <img class="Blog__card-img-top card-img-top" src="assets/images/img_foot2.jpg" alt="Card image cap">
                         <div class="Blog__card-body card-body">
-                            <h5 class="Blog__card-title card-title">Vivamus non dignissim elit</h5>
+                            <a href="#">
+                                <h5 class="Blog__card-title card-title">Vivamus non dignissim elit</h5>
+                            </a>
                             <p class="Blog__card-text card-text">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
                         </div>
                         <div class="Blog__card-footer card-footer">
@@ -418,7 +413,9 @@
                     <div class="Blog__card-3 card">
                         <img class="Blog__card-img-top card-img-top" src="assets/images/img_foot3.jpg" alt="Card image cap">
                         <div class="Blog__card-body card-body">
-                            <h5 class="Blog__card-title card-title">Ut lacinia erat ut diam volutpat</h5>
+                            <a href="#">
+                                <h5 class="Blog__card-title card-title">Ut lacinia erat ut diam volutpat</h5>
+                            </a>
                             <p class="Blog__card-text card-text">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
                         </div>
                         <div class="Blog__card-footer card-footer">
@@ -435,7 +432,9 @@
                     <div class="Blog__card-1 card">
                         <img class="Blog__card-img-top card-img-top" src="assets/images/img_foot1.jpg" alt="Card image cap">
                         <div class="Blog__card-body card-body">
-                            <h5 class="Blog__card-title card-title">In commodo dolor vitae</h5>
+                            <a href="#">
+                                <h5 class="Blog__card-title card-title">In commodo dolor vitae</h5>
+                            </a>
                             <p class="Blog__card-text card-text">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
                         </div>
                         <div class="Blog__card-footer card-footer">
@@ -452,7 +451,9 @@
                     <div class="Blog__card-2 card">
                         <img class="Blog__card-img-top card-img-top" src="assets/images/img_foot2.jpg" alt="Card image cap">
                         <div class="Blog__card-body card-body">
-                            <h5 class="Blog__card-title card-title">Vivamus non dignissim elit</h5>
+                            <a href="#">
+                                <h5 class="Blog__card-title card-title">Vivamus non dignissim elit</h5>
+                            </a>
                             <p class="Blog__card-text card-text">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
                         </div>
                         <div class="Blog__card-footer card-footer">
@@ -469,7 +470,9 @@
                     <div class="Blog__card-3 card">
                         <img class="Blog__card-img-top card-img-top" src="assets/images/img_foot3.jpg" alt="Card image cap">
                         <div class="Blog__card-body card-body">
-                            <h5 class="Blog__card-title card-title">Ut lacinia erat ut diam volutpat</h5>
+                            <a href="#">
+                                <h5 class="Blog__card-title card-title">Ut lacinia erat ut diam volutpat</h5>
+                            </a>
                             <p class="Blog__card-text card-text">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
                         </div>
                         <div class="Blog__card-footer card-footer">
@@ -486,7 +489,9 @@
                     <div class="Blog__card-1 card">
                         <img class="Blog__card-img-top card-img-top" src="assets/images/img_foot1.jpg" alt="Card image cap">
                         <div class="Blog__card-body card-body">
-                            <h5 class="Blog__card-title card-title">In commodo dolor vitae</h5>
+                            <a href="#">
+                                <h5 class="Blog__card-title card-title">In commodo dolor vitae</h5>
+                            </a>
                             <p class="Blog__card-text card-text">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
                         </div>
                         <div class="Blog__card-footer card-footer">
@@ -503,7 +508,9 @@
                     <div class="Blog__card-2 card">
                         <img class="Blog__card-img-top card-img-top" src="assets/images/img_foot2.jpg" alt="Card image cap">
                         <div class="Blog__card-body card-body">
-                            <h5 class="Blog__card-title card-title">Vivamus non dignissim elit</h5>
+                            <a href="#">
+                                <h5 class="Blog__card-title card-title">Vivamus non dignissim elit</h5>
+                            </a>
                             <p class="Blog__card-text card-text">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
                         </div>
                         <div class="Blog__card-footer card-footer">
@@ -520,7 +527,9 @@
                     <div class="Blog__card-3 card">
                         <img class="Blog__card-img-top card-img-top" src="assets/images/img_foot3.jpg" alt="Card image cap">
                         <div class="Blog__card-body card-body">
-                            <h5 class="Blog__card-title card-title">Ut lacinia erat ut diam volutpat</h5>
+                            <a href="#">
+                                <h5 class="Blog__card-title card-title">Ut lacinia erat ut diam volutpat</h5>
+                            </a>
                             <p class="Blog__card-text card-text">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris.</p>
                         </div>
                         <div class="Blog__card-footer card-footer">
@@ -549,10 +558,10 @@
                             <h6>About Franco</h6>
                             <p class="Footer__text-justify">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel. Aenean hendrerit, elit a lacinia suscipit, orci mauris vulputate mi, eu interdum nunc diam at ipsum.</p>
                             <span class="Footer__top-1-icon">
-                                <i class="Footer__top-1-icon--nb1 fab fa-twitter"></i>
-                                <i class="Footer__top-1-icon--nb2 fab fa-linkedin-in"></i>
-                                <i class="Footer__top-1-icon--nb3 fab fa-behance"></i>
-                                <i class="Footer__top-1-icon--nb4 fab fa-dribbble"></i>
+                                <a class="Footer__top-1-icon--a" href=""><i class="Footer__top-1-icon--nb1 fab fa-twitter"></i></a>
+                                <a class="Footer__top-1-icon--a" href=""><i class="Footer__top-1-icon--nb2 fab fa-linkedin-in"></i></a>
+                                <a class="Footer__top-1-icon--a" href=""><i class="Footer__top-1-icon--nb3 fab fa-behance"></i></a>
+                                <a class="Footer__top-1-icon--a" href=""><i class="Footer__top-1-icon--nb4 fab fa-dribbble"></i></a>
                             </span>
                         </div>
                         <div class="Footer__top-2 col-lg-4 col-md-6 col-sm-6 col-12">
@@ -588,11 +597,13 @@
                                         <span>Causeway Bay, Hong Kong</span>
                                     </span>
                                 </li>
-                                <li class="footer-links__2"><i class="fas fa-phone-alt"></i>
-                                    <span>+1 23456789</span>
+                                <li class="footer-links__2">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <a href=""><span>+1 23456789</span></a>
                                 </li>
-                                <li class="footer-links__3"><i class="far fa-envelope"></i>
-                                    <span>Contact@yourdomain.com</span>
+                                <li class="footer-links__3">
+                                    <i class="far fa-envelope"></i>
+                                    <a href=""><span>Contact@yourdomain.com</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -624,24 +635,24 @@
     </footer>
     <!--End Footer -->
     <script>
-    $('.owl-carousel').owlCarousel({
-        loop: true,
-        dots: true,
-        margin: 30,
-        nav: false,
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            dots: true,
+            margin: 30,
+            nav: false,
 
-        responsive: {
-            0: {
-                items: 1
-            },
-            768: {
-                items: 2
-            },
-            1199: {
-                items: 3
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                1199: {
+                    items: 3
+                }
             }
-        }
-    })
+        })
 
     /*document.addEventListener("click",function(){
         var x1 = document.getElementById("Header__button-top");
@@ -649,7 +660,7 @@
             document.getElementById("Header__menu").style.display = "block";
         }
     },false)*/
-    </script>
+</script>
 </body>
 
 </html>

@@ -9,7 +9,7 @@
     display: flex;
 }
 
-.imgads1 {
+.imgbanner1 {
     width: 100%;
     margin-bottom: 30px;
 }
@@ -39,18 +39,20 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     max-width: 100%;
-    padding: 6px 17px 6px 16px;
+    padding: 8px 17px 8px 16px;
     float: right;
     border: 1px solid #8262b5;
     background-color: #8262b5;
     border-radius: 0px;
-}
-
-.banner-left__button a {
-    width: 100%;
     max-width: 100%;
     font-size: 14px;
     color: #fff;
+}
+.banner-left__button:hover{
+    text-decoration: none;
+    background-color: #fff;
+    border:1px solid #fff;
+    color: #8262b5;
 }
 
 .button-left {
@@ -69,42 +71,42 @@
 
 }
 
-.imgads2 {
+.imgbanner2 {
     max-width: 100%;
     width: 100%;
     margin: 0 0 30px 0;
 }
 
-.banner-right__ads2 {
+.banner-right__banner2 {
     padding: 0;
 }
 
-.ads2__content {
+.banner2__content {
     position: absolute;
     text-transform: uppercase;
     top: 47%;
     transform: translateY(-50%) translateX(31%);
 }
 
-.ads2__content h3 {
+.banner2__content h3 {
     font-size: 16px;
     color: #616161;
     letter-spacing: 3.1px;
     margin-bottom: 0;
 }
 
-.ads2__content h2 {
+.banner2__content h2 {
     padding: 0;
     margin: 0;
     font-weight: bold;
     font-size: 20px
 }
 
-.banner-right__ads3 {
+.banner-right__banner3 {
     padding: 0;
 }
 
-.imgads3 {
+.imgbanner3 {
     max-width: 100%;
     width: 100%;
 }
@@ -145,7 +147,12 @@
     border-radius: 0px;
     padding: 10px 15px 10px 20px;
 }
-
+.banner-right__button:hover{
+    text-decoration: none;
+    background-color: #fff;
+    border:1px solid #fff;
+    color: #8262b5;
+}
 
 .button-right {
     font-size: 14px;
@@ -252,10 +259,11 @@
                     font-weight: bold;
                     margin: 0 0 5px 5px;
 
-                    & .Product__item--background:hover {
-                        color: #8262b5;
-                        background-color: #fff;
-                    }
+                }
+                & .Product__item--background:hover {
+                        color: #fff;
+                        background-color: #8262b5;
+                        border: 1px solid #8262b5;
                 }
             }
 
@@ -400,6 +408,7 @@
                     & .Blog__card-title:hover {
                         color: #8262b5;
                         cursor: pointer;
+
                     }
 
                     & .Blog__card-text {
@@ -652,4 +661,7 @@
     & .space {
         height: 57px;
     }
+}
+.owl-theme .owl-dots .owl-dot{
+    outline: none;
 }
