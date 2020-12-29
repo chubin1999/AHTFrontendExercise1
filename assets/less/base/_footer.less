@@ -222,21 +222,29 @@
 
                 & .footer-links__1 {
                    height: 26.5%;
+
                    & i {
                     font-size: 14px;
                     margin-left: 2px;
                 }
-
-                & span {
-                    margin-left: 12px;
-
-                    & span{
-                        padding-left: 33px;
-                        letter-spacing: 0.1px;
-                        margin: 0;
+                a{
+                    color: #f7f7f7;
+                    & span {
+                        margin-left: 12px;
+                        color: #888888;
+                        & section{
+                            padding-left: 33px;
+                            letter-spacing: 0.1px;
+                            margin: 0;
+                        }
+                        /*span:hover{
+                            color: #f7f7f7;
+                        }*/
                     }
+                    span:hover{
+                        color: #f7f7f7;
+                    }  
                 }
-
             }
 
             & .footer-links__2 {
@@ -317,7 +325,6 @@
                         font-family: "Open Sans";
                         text-align: center;
                         letter-spacing: 0.25px;
-
                         & p {}
 
                         & a {
