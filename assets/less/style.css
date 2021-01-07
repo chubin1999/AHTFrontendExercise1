@@ -1253,6 +1253,9 @@ a {
         width: 140px;
     }
 */
+  .header__top--margin{
+      padding: 0 15px 0 15px;
+  }
   .row-search {
     display: block;
   }
